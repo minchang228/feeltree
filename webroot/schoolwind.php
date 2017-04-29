@@ -4,11 +4,11 @@ $db = newADOConnection('mysqli');
 $db->connect('localhost', 'root', 'bigthinker', 'feeltree');
 $db->Execute('SET NAMES UTF8');
 
-$starttime=mktime(0, 0, 0, 4, 28, 2017) * 1000;
+$starttime=mktime(0, 0, 0, 4, 29, 2017) * 1000;
 //echo "start=".$starttime;
 //echo "<br>";
 
-$endtime=mktime(0, 0, 0, 4, 30, 2017) * 1000;
+$endtime=mktime(0, 0, 0, 5, 1, 2017) * 1000;
 //echo "end=".$endtime;
 //echo "<br>";
 
